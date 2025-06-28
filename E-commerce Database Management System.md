@@ -1,6 +1,6 @@
 # 🗃️ E-commerce Database Management System
 
-### 👩‍💻 By Reema F. Almukhlifi, Huson Mufti, Alhanouf Alqurawi
+### 👩‍💻 By Reema F. Almukhlifi, Huson Mufti, Alhanouf Alqarawi
 
 This project presents a relational **SQL-based database system** developed for managing operations in an e-commerce environment.  
 It was built as part of our university Database course to demonstrate data integrity, normalization, and real-world entity relationships.
