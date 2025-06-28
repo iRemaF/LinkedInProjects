@@ -186,7 +186,7 @@ VALUES (122, 'Helens', 600600600, 1213141516, 'yes');
 
 ## 📁 GitHub Repository
 
-[🔗 View the Repository](https://github.com/iRemaF/Ecommerce-Database-SQL) *(replace with your actual link)*
+[🔗 View the Repository](https://github.com/iRemaF/Ecommerce-Database-SQL)
 
 ---
 
