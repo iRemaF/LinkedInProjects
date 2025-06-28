@@ -45,10 +45,10 @@ The project was completed under the course "Project Management" and focused on p
 
 ## Tools Used
 
-- Microsoft Word & PowerPoint (documentation and visual presentation)
-- Project Management tools (Gantt Chart, WBS, Risk Matrix)
-- GitHub (version control and team collaboration)
-
+* **Microsoft Word & PowerPoint** - documentation and visual presentation
+* **Project Management tools** - Gantt Chart, WBS, Risk Matrix
+* **GitHub** - version control and team collaboration
+* **VS Code** – For development and testing 
 ---
 
 ## How to View
