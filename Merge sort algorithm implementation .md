@@ -29,6 +29,14 @@ The algorithm guarantees **O(n log n)** time complexity and **stability** in sor
 
 ---
 
+## Technologies Used
+
+* **Java** – Core implementation language  
+* **JDK 17+** – Recommended for compatibility  
+* **VS Code / IntelliJ** – For development and testing  
+
+---
+
 ## Sample Output
 
 ```bash
@@ -120,14 +128,6 @@ Performance comparisons were made against:
 * Stable and predictable behavior across all inputs  
 * Time complexity of **O(n log n)** in the worst case  
 * Higher memory usage, but reliable for large datasets  
-
----
-
-## Technologies Used
-
-* **Java** – Core implementation language  
-* **JDK 17+** – Recommended for compatibility  
-* **VS Code / IntelliJ** – For development and testing  
 
 ---
 
