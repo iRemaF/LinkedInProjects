@@ -190,7 +190,7 @@ VALUES (122, 'Helens', 600600600, 1213141516, 'yes');
 
 ## GitHub Repository
 
-[View the Repository](https://github.com/iRemaF/Ecommerce-Database-SQL)
+[View the Repository](https://github.com/iRemaF/LinkedInProjects/blob/main/E-commerce%20Database%20Management%20System.md)
 
 ---
 
