@@ -71,8 +71,7 @@ git clone https://github.com/iRemaF/LinkedInProjects.git
 ````
 
 2. Open the PDF file to view full documentation:
-[Uploading Human computer interaction .pdf…]()
-
+[Human computer interaction .pdf](https://github.com/user-attachments/files/20959231/Human.computer.interaction.pdf)
 
 ---
 
