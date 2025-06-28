@@ -1,68 +1,70 @@
-🎓 DTP Admission System
-👩‍💻 By Reema F. Almukhlifi
-This project presents a Java-based admission system designed to manage the selection and assignment of students into undergraduate programs based on their academic performance and preferences.
-It was developed as part of a Data Structures course to demonstrate mastery in object-oriented programming, custom linked structures, and logical decision-making in educational systems.
+# DTP Admission System
 
-📌 Project Overview
-The system simulates a university admission process and manages:
+### By Reema F. Almukhlifi
 
-Student applications
+This project presents a Java-based admission system developed for managing and processing student applications for undergraduate programs.
+It was built as part of our university Data Structures course to demonstrate the use of object-oriented programming, custom data structures, and logical filtering and sorting in real-world simulations.
 
-GPA-based filtering
+---
 
-Preference-based program assignment
+## Project Overview
 
-Custom stack & queue operations
+The system simulates a university admission process and handles:
 
-Sorting and eligibility checks
+* Student applications
+* GPA-based filtering
+* Course-level eligibility checks
+* Sorting applicants based on academic performance
+* Program assignment based on student preferences and seat availability
 
-We focused on clean modular design, data structure implementation, and simulating real-world admission behavior.
+We focused on applying custom-built data structures and algorithmic logic to mirror realistic academic admission scenarios.
 
-🧩 System Structure
-The project includes the following components:
+---
 
-LLQueue & LLstack – Custom-built queue and stack using linked lists
+## System Structure
 
-Student – Stores name, ID, grades, and desired majors
+The system includes the following core components:
 
-Course – Represents course name and grade
+* **LLQueue** – A custom queue class to manage incoming student applications
+* **LLstack** – A custom stack class used for sorting and assigning students
+* **Student** – Represents individual applicants, including name, ID, courses, grades, and desired majors
+* **UnderGraduateProgram** – Represents available programs (CS, IS, IT) with limited seat capacity
+* **Admission** – The main class responsible for filtering, ordering, and assigning applicants
 
-UnderGraduateProgram – Represents CS, IS, and IT programs with seat limits
+---
 
-Admission – Main logic handling admission, filtering, and assignment
+## Key Features
 
-✨ Key Features
-🎯 Threshold-based Filtering: Only applicants with total grades above 540 are considered
+* Admission Threshold: Filters students with a total grade below 540
+* Course Filtering: Accepts only students who scored 90+ in all courses
+* Performance Sorting: Orders students using a custom stack based on performance
+* Program Assignment: Assigns students to their first available desired major
+* Modular Design: Organized using object-oriented principles and reusable methods
 
-📋 Course-level Filtering: Students must score 90+ in all courses to proceed
+---
 
-🧠 Sorted Stack Allocation: Students are ordered and processed by performance
+## Technologies Used
 
-🏛 Smart Assignment: Students are assigned to their first available preferred major
+* Java – Main programming language
+* Custom Data Structures – Queue and Stack built using linked lists
+* Object-Oriented Programming – Encapsulation, inheritance, abstraction
+* GitHub – For version control and collaboration
 
-🔄 Reusable Design: Modular, expandable, and readable class structure
+---
 
-🛠 Technologies Used
-Java – Core programming language
+## How to Run
 
-OOP Principles – Encapsulation, abstraction, modularity
-
-Custom Data Structures – Linked-list-based queue and stack
-
-NetBeans / IntelliJ IDEA – IDEs used for development and testing
-
-▶️ How to Run
 Clone the repository:
+
+```bash
 git clone https://github.com/iRemaF/DTP-Admission-System.git
-// By Reema F. Almukhlifi
-// This project simulates a university admission system based on GPA thresholds and program preferences.
+```
 
-package project;
-
-import project.SinglyLinkedList.Node;
+```java
+// by Reema F. Almukhlifi
+// This project simulates a university admission system using Java and custom data structures
 
 public class Admission {
-
     private final double ACCEPTANCETHRESHOLD = 540;
     private LLQueue<Student> applicants;
     private LLstack<Student> Candidate;
@@ -78,11 +80,6 @@ public class Admission {
         IT = new UnderGraduateProgram("IT");
     }
 
-    public void FillApplicantions() {
-        // Student initialization with desired majors and grades
-        // Applicants are added to the queue here
-    }
-
     public void FilterByTotalGrades() {
         int size = applicants.size();
         for (int i = 0; i < size; i++) {
@@ -93,19 +90,9 @@ public class Admission {
         }
     }
 
-    public void FilterByCourses() {
-        int size = applicants.size();
-        for (int i = 0; i < size; i++) {
-            Student std = applicants.dequeue();
-            if (CheckStudentCoursesGraterThean90(std)) {
-                applicants.enqueue(std);
-            }
-        }
-    }
-
     public boolean CheckStudentCoursesGraterThean90(Student std) {
-        SinglyLinkedList gradeList = std.getGrades();
-        Node temp = gradeList.head;
+        SinglyLinkedList grades = std.getGrades();
+        Node temp = grades.head;
         while (temp != null) {
             if (temp.getElement().getGrade() < 90) {
                 return false;
@@ -115,61 +102,36 @@ public class Admission {
         return true;
     }
 
-    public void ArrangeStudentsInStack() {
-        int size = applicants.size();
-        for (int i = 0; i < size; i++) {
-            Student std = applicants.dequeue();
-            applicants.enqueue(std);
-            Student minStd = minimumLevelStudent();
-            RemoveMinimumLevelStudent(minStd);
-            Candidate.push(minStd);
-        }
-    }
-
-    public Student minimumLevelStudent() {
-        Student minStd = applicants.first();
-        int size = applicants.size();
-        for (int i = 0; i < size; i++) {
-            Student std = applicants.dequeue();
-            if (std.TotalGrades() < minStd.TotalGrades()) {
-                minStd = std;
-            }
-            applicants.enqueue(std);
-        }
-        return minStd;
-    }
-
-    public Student RemoveMinimumLevelStudent(Student minLevelStudent) {
-        int size = applicants.size();
-        for (int i = 0; i < size; i++) {
-            Student std = applicants.dequeue();
-            if (std != minLevelStudent) {
-                applicants.enqueue(std);
-            }
-        }
-        return minLevelStudent;
-    }
-
     public void AssignStudenttoProgram() {
         while (!Candidate.isEmpty()) {
             Student candidate = Candidate.pop();
-            LLstack<UnderGraduateProgram> desiredMajorsStack = candidate.getDesiredMajors();
-            while (!desiredMajorsStack.isEmpty()) {
-                UnderGraduateProgram desiredMajor = desiredMajorsStack.pop();
-                if (desiredMajor.IsSeatAvailabile()) {
-                    candidate.setMajor(desiredMajor.getUnderGraduateProgramName());
-                    desiredMajor.incrementSeats();
+            LLstack<UnderGraduateProgram> preferences = candidate.getDesiredMajors();
+            while (!preferences.isEmpty()) {
+                UnderGraduateProgram major = preferences.pop();
+                if (major.IsSeatAvailabile()) {
+                    candidate.setMajor(major.getUnderGraduateProgramName());
+                    major.incrementSeats();
                     break;
                 }
             }
             System.out.println(candidate);
-            System.out.println("----------------------------------");
         }
     }
 }
-GitHub Repository
-View the Repository
+```
 
-Contact
-For questions or collaboration, feel free to get in touch.
+---
 
+## GitHub Repository
+
+[View the Repository](https://github.com/iRemaF/DTP-Admission-System)
+
+---
+
+## Contact
+
+Feel free to reach out for questions or collaboration.
+
+---
+
+هل تبين أرتب لك نسخة بالعربي بنفس الأسلوب أو نحولها PDF لو بترفعينه رسمي؟
