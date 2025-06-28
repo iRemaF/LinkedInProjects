@@ -50,4 +50,7 @@ The project was completed under the course *Human and Computer Interaction (HCI)
 
 ## Contact
 
-For questions or collaboration inquiries, feel free to reach out via GitHub or LinkedIn.
+For questions or collaboration, feel free to reach out:
+
+* **GitHub**: [github.com/iRemaF](https://github.com/iRemaF)  
+* **LinkedIn**:[https://linkedin.com](https://www.linkedin.com/in/reema-almukhlifi-bbb2b1240/)
