@@ -199,6 +199,6 @@ VALUES (122, 'Helens', 600600600, 1213141516, 'yes');
 For questions or collaboration, feel free to reach out:
 
 * **GitHub**: [github.com/iRemaF](https://github.com/iRemaF)  
-* **LinkedIn**: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+* **LinkedIn**:[https://linkedin.com](https://www.linkedin.com/in/reema-almukhlifi-bbb2b1240/))
 
 ---
