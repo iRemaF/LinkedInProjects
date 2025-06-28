@@ -57,7 +57,7 @@ The project was completed under the course "Project Management" and focused on p
    [Ninja App Development Repository](https://github.com/iRemaF/LinkedInProjects/blob/main/Ninja%20App%20Development.md)
 
 2. View the presentation:
-[Ninja App Development.pptx](https://github.com/user-attachments/files/20958920/Ninja.App.Development.pptx)
+[Ninja.App.Development.pptx](https://github.com/user-attachments/files/20958947/Ninja.App.Development.pptx)
 
 ---
 
