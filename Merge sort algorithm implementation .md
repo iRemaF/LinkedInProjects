@@ -33,7 +33,7 @@ The algorithm guarantees **O(n log n)** time complexity and **stability** in sor
 
 * **Java** – Core implementation language  
 * **JDK 17+** – Recommended for compatibility  
-* **VS Code / IntelliJ** – For development and testing  
+* **VS Code** – For development and testing  
 
 ---
 
