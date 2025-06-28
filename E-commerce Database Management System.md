@@ -1,8 +1,10 @@
+---
+
 # E-commerce Database Management System
 
 ### By Reema F. Almukhlifi, Huson Mufti, Alhanouf Alqarawi
 
-This project presents a relational **SQL-based database system** developed for managing operations in an e-commerce environment.  
+This project presents a relational **SQL-based database system** developed for managing operations in an e-commerce environment.
 It was built as part of our university Database course to demonstrate data integrity, normalization, and real-world entity relationships.
 
 ---
@@ -11,11 +13,11 @@ It was built as part of our university Database course to demonstrate data integ
 
 The system simulates an e-commerce store and handles:
 
-- Customer orders  
-- Delivery logistics  
-- Shop details  
-- Receiver information  
-- Location mapping
+* Customer orders
+* Delivery logistics
+* Shop details
+* Receiver information
+* Location mapping
 
 We focused on **data normalization**, **relational structure**, and the use of **Primary and Foreign Keys** to ensure consistency and reliability across the database.
 
@@ -25,12 +27,12 @@ We focused on **data normalization**, **relational structure**, and the use of *
 
 The database includes the following tables:
 
-- **Sender** – Stores sender details (phone, name)  
-- **Orders** – Tracks order placement linked to senders and shops  
-- **Shop** – Contains store names and types  
-- **Delivery** – Manages delivery agents and their assigned shops  
-- **Receiver** – Connects deliveries to recipients  
-- **RecLocation** – Maps receiver phone numbers to physical locations
+* **Sender** – Stores sender details (phone, name)
+* **Orders** – Tracks order placement linked to senders and shops
+* **Shop** – Contains store names and types
+* **Delivery** – Manages delivery agents and their assigned shops
+* **Receiver** – Connects deliveries to recipients
+* **RecLocation** – Maps receiver phone numbers to physical locations
 
 All tables are interlinked through **foreign keys** to preserve data relationships and prevent duplication.
 
@@ -38,31 +40,33 @@ All tables are interlinked through **foreign keys** to preserve data relationshi
 
 ## Key Features
 
--  **Data Integrity**: Enforced via Primary & Foreign Keys  
--  **Normalized Design**: Reduces redundancy and improves performance  
--  **Realistic Modeling**: Simulates a full e-commerce flow  
--  **Team Collaboration**: Built in collaboration and version-controlled
+* **Data Integrity**: Enforced via Primary & Foreign Keys
+* **Normalized Design**: Reduces redundancy and improves performance
+* **Realistic Modeling**: Simulates a full e-commerce flow
+* **Team Collaboration**: Built in collaboration and version-controlled
 
 ---
 
 ## Technologies Used
 
-- **SQL (Oracle dialect)** – Main database language  
-- **ERD Design Tools** – For planning schema  
-- **GitHub** – For version control and collaboration
+* **SQL (Oracle dialect)** – Main database language
+* **ERD Design Tools** – For planning schema
+* **GitHub** – For version control and collaboration
 
 ---
 
 ## How to Run
 
-Clone the repository:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/iRemaF/Ecommerce-Database-SQL.git
 ```
 
+2. Run the following SQL script in your Oracle SQL environment:
+
 ```sql
--- by Reema F. Almukhlifi, HusonM, AlhanoufF  
+-- by Reema F. Almukhlifi, Huson Mufti, Alhanouf Alqarawi
 -- This project demonstrates a relational database system for e-commerce management
 
 -- Drop and create Sender table
@@ -148,7 +152,6 @@ CREATE TABLE Gift (
 );
 
 -- Insert data into tables
-
 INSERT INTO Sender VALUES (1122334455, 'Reema');
 INSERT INTO Sender VALUES (1212343400, 'Hanouf');
 INSERT INTO Sender VALUES (1234512345, 'Muthalath');
@@ -181,15 +184,18 @@ VALUES (212, 'Levo', 500500500, 5432154321, 'pink party');
 
 INSERT INTO Gift (order_number, Sname, DphoneNum, RphoneNum, birth_bouqet)
 VALUES (122, 'Helens', 600600600, 1213141516, 'yes');
+```
 
 ---
 
 ## GitHub Repository
 
-[ View the Repository](https://github.com/iRemaF/Ecommerce-Database-SQL)
+[View the Repository](https://github.com/iRemaF/Ecommerce-Database-SQL)
 
 ---
 
 ## Contact
 
 Feel free to reach out for questions or collaboration.
+
+---
