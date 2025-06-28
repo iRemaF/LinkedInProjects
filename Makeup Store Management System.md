@@ -220,6 +220,9 @@ public class Store {
 
 ## Contact
 
-For inquiries or collaboration, feel free to reach out.
+For questions or collaboration, feel free to reach out:
+
+* **GitHub**: [github.com/iRemaF](https://github.com/iRemaF)  
+* **LinkedIn**:[https://linkedin.com](https://www.linkedin.com/in/reema-almukhlifi-bbb2b1240/)
 
 ---
