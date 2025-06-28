@@ -5,6 +5,8 @@ _As part of the Human and Computer Interaction course – Princess Nourah Univer
 This project presents a redesigned version of the official student application at Princess Nourah University.  
 The redesign focuses on improving usability, accessibility, and interaction design through a research-driven UI/UX process.
 
+---
+
 ## Project Overview
 
 **Talabat Nourah App** is a conceptual redesign aimed at solving major usability and service issues in the original platform.  
@@ -17,6 +19,8 @@ The project was completed under the course *Human and Computer Interaction (HCI)
 - Human-centered design practices
 - Usability testing and iterative design
 
+---
+
 ## Key Features Proposed
 
 - Event & notification system for clubs and academic alerts  
@@ -27,6 +31,8 @@ The project was completed under the course *Human and Computer Interaction (HCI)
 - Multi-language interface (Arabic/English)  
 - Simplified student-to-security communication  
 
+---
+
 ## Responsibilities and Contributions
 
 - Conducted user research and needs analysis  
@@ -36,17 +42,24 @@ The project was completed under the course *Human and Computer Interaction (HCI)
 - Improved interaction design (menu-driven + direct manipulation patterns)  
 - Ensured accessibility compliance (text size, contrast, tooltips, etc.)
 
+---
+
 ## Tools Used
 
-- **Figma** – Wireframing & prototyping  
-- **Microsoft PowerPoint** – Visual presentation  
-- **WCAG 2.1** – Accessibility standards reference  
-- **Usability testing survey** – Feedback collection and evaluation
+* **Figma** – Wireframing & prototyping  
+* **Microsoft Word** - documentation
+* **Microsoft PowerPoint** – Visual presentation  
+* **WCAG 2.1** – Accessibility standards reference  
+* **Usability testing survey** – Feedback collection and evaluation
+
+---
 
 ## How to View
 
 - View the repository: [Talabat Nourah App Repository](https://github.com/iRemaF/LinkedInProjects/blob/main/Talabat%20Nourah%20App.md)  
 - View the presentation: [Human computer interaction .pptx](https://github.com/user-attachments/files/20959276/Human.computer.interaction.pptx)
+
+---
 
 ## Contact
 
