@@ -124,8 +124,7 @@ public class Admission {
 
 ## GitHub Repository
 
-GitHub Repository
-View the Repository
+[View the Repository](https://github.com/iRemaF/LinkedInProjects/blob/main/DTP%20Admission%20System.md)
 
 ---
 
