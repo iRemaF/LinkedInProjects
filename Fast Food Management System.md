@@ -32,6 +32,7 @@ The system focuses on:
 * **Java** – Core programming language
 * **OOP Concepts** – Including abstraction, encapsulation, and modularity
 * **GitHub** – For version control and code hosting
+* **VS Code** – For development and testing  
 
 ---
 
