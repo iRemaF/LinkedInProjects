@@ -71,10 +71,7 @@ git clone https://github.com/iRemaF/LinkedInProjects.git
 ````
 
 2. Open the PDF file to view full documentation:
-
-```
-Talabat Nourah App Development.pdf
-```
+[Uploading Human computer interaction .pdf…]()
 
 ---
 
