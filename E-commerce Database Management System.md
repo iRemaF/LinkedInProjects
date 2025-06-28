@@ -1,13 +1,13 @@
-# 🗃️ E-commerce Database Management System
+# E-commerce Database Management System
 
-### 👩‍💻 By Reema F. Almukhlifi, Huson Mufti, Alhanouf Alqarawi
+### By Reema F. Almukhlifi, Huson Mufti, Alhanouf Alqarawi
 
 This project presents a relational **SQL-based database system** developed for managing operations in an e-commerce environment.  
 It was built as part of our university Database course to demonstrate data integrity, normalization, and real-world entity relationships.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 The system simulates an e-commerce store and handles:
 
@@ -21,7 +21,7 @@ We focused on **data normalization**, **relational structure**, and the use of *
 
 ---
 
-## 🧩 Database Schema
+## Database Schema
 
 The database includes the following tables:
 
@@ -36,16 +36,16 @@ All tables are interlinked through **foreign keys** to preserve data relationshi
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- 🔐 **Data Integrity**: Enforced via Primary & Foreign Keys  
-- 🧠 **Normalized Design**: Reduces redundancy and improves performance  
-- 📊 **Realistic Modeling**: Simulates a full e-commerce flow  
-- 🤝 **Team Collaboration**: Built in collaboration and version-controlled
+-  **Data Integrity**: Enforced via Primary & Foreign Keys  
+-  **Normalized Design**: Reduces redundancy and improves performance  
+-  **Realistic Modeling**: Simulates a full e-commerce flow  
+-  **Team Collaboration**: Built in collaboration and version-controlled
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **SQL (Oracle dialect)** – Main database language  
 - **ERD Design Tools** – For planning schema  
@@ -53,7 +53,7 @@ All tables are interlinked through **foreign keys** to preserve data relationshi
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 Clone the repository:
 
@@ -184,12 +184,12 @@ VALUES (122, 'Helens', 600600600, 1213141516, 'yes');
 
 ---
 
-## 📁 GitHub Repository
+## GitHub Repository
 
-[🔗 View the Repository](https://github.com/iRemaF/Ecommerce-Database-SQL)
+[ View the Repository](https://github.com/iRemaF/Ecommerce-Database-SQL)
 
 ---
 
-## 📣 Contact
+## Contact
 
 Feel free to reach out for questions or collaboration.
