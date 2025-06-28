@@ -46,7 +46,7 @@ The project was completed under the course *Human and Computer Interaction (HCI)
 ## How to View
 
 - View the repository: [Talabat Nourah App Repository](https://github.com/iRemaF/LinkedInProjects/blob/main/Talabat%20Nourah%20App.md)  
-- View the presentation: `Talabat.Nourah.HCI.pptx` (uploaded on GitHub)
+- View the presentation: [Human computer interaction .pptx](https://github.com/user-attachments/files/20959276/Human.computer.interaction.pptx)
 
 ## Contact
 
