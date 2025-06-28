@@ -262,7 +262,7 @@ public class Main {
 
 ## GitHub Repository
 
-[View the Repository](https://github.com/iRemaF/FastFoodManagement.git)
+[View the Repository](https://github.com/iRemaF/LinkedInProjects/blob/main/Fast%20Food%20Management%20System.md)
 
 ---
 
