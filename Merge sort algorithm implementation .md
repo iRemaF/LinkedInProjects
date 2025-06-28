@@ -134,6 +134,7 @@ Performance comparisons were made against:
 ## GitHub Repository
 
 [View the Repository](https://github.com/iRemaF/LinkedInProjects/blob/main/Merge%20sort%20algorithm%20implementation%20.md)
+
 ---
 
 ## Contact
