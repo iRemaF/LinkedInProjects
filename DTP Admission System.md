@@ -124,7 +124,8 @@ public class Admission {
 
 ## GitHub Repository
 
-[View the Repository](https://github.com/iRemaF/DTP-Admission-System)
+GitHub Repository
+View the Repository
 
 ---
 
