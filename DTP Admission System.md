@@ -49,7 +49,7 @@ The system includes the following core components:
 * Custom Data Structures – Queue and Stack built using linked lists
 * Object-Oriented Programming – Encapsulation, inheritance, abstraction
 * GitHub – For version control and collaboration
-
+* VS Code – For development and testing  
 ---
 
 ## How to Run
