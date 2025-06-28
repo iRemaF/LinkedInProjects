@@ -52,7 +52,7 @@ All tables are interlinked through **foreign keys** to preserve data relationshi
 * **SQL (Oracle dialect)** – Main database language
 * **ERD Design Tools** – For planning schema
 * **GitHub** – For version control and collaboration
-
+* **VS Code / IntelliJ** – For development and testing  
 ---
 
 ## How to Run
