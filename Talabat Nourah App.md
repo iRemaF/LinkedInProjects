@@ -1,80 +1,53 @@
-# Talabat Nourah App – UI/UX Redesign Project
-
+# Talabat Nourah App Development  
 ### By Reema F. Almukhlifi  
----
+_As part of the Human and Computer Interaction course – Princess Nourah University_
+
+This project presents a redesigned version of the official student application at Princess Nourah University.  
+The redesign focuses on improving usability, accessibility, and interaction design through a research-driven UI/UX process.
 
 ## Project Overview
 
-Talabat Nourah is a redesigned university app intended to enhance the student experience at Princess Nourah University.  
-The project was developed as part of the Human-Computer Interaction (HCI) course, with a strong focus on usability, accessibility, and design thinking.
+**Talabat Nourah App** is a conceptual redesign aimed at solving major usability and service issues in the original platform.  
+The app serves as a unified student hub for academic, social, and administrative interactions.
 
-The aim was to rethink the original app structure and solve key pain points for students, while ensuring compliance with WCAG 2.1 accessibility standards.
+The project was completed under the course *Human and Computer Interaction (HCI)*, focusing on:
 
----
+- Interface design using **Figma**
+- Compliance with **WCAG 2.1 accessibility standards**
+- Human-centered design practices
+- Usability testing and iterative design
 
-## Objectives
+## Key Features Proposed
 
-- Improve accessibility across various university services  
-- Centralize key features like locker booking, gym registration, and academic tracking  
-- Enable event creation and discovery for clubs and organizations  
-- Provide guided navigation through metro stations on campus  
-- Ensure a user-friendly, intuitive interface for all students
+- Event & notification system for clubs and academic alerts  
+- Locker and gym reservation functionality  
+- Health record viewing & emergency contacts  
+- Academic schedule tracking (current/remaining hours)  
+- Secure login and real-time metro guidance  
+- Multi-language interface (Arabic/English)  
+- Simplified student-to-security communication  
 
----
+## Responsibilities and Contributions
 
-## My Role
+- Conducted user research and needs analysis  
+- Redesigned user interfaces using HCI principles  
+- Conducted usability testing and documented key findings  
+- Proposed solutions to usability challenges (e.g. unclear icons, form bugs)  
+- Improved interaction design (menu-driven + direct manipulation patterns)  
+- Ensured accessibility compliance (text size, contrast, tooltips, etc.)
 
-As the UI/UX Designer, I was responsible for:
+## Tools Used
 
-- Conducting UX research via surveys and user interviews  
-- Designing wireframes and interactive prototypes using Figma  
-- Applying HCI principles to improve layout and interaction patterns  
-- Performing usability testing and iterating based on feedback  
-- Creating a consistent, accessible design aligned with user needs
+- **Figma** – Wireframing & prototyping  
+- **Microsoft PowerPoint** – Visual presentation  
+- **WCAG 2.1** – Accessibility standards reference  
+- **Usability testing survey** – Feedback collection and evaluation
 
----
+## How to View
 
-## Key Features
-
-- Student Dashboard: Class hours, attendance, health status  
-- Locker and Gym Access: Bookings and subscription management  
-- Events Portal: Club event creation, reminders, and discovery  
-- Metro Assistance: Real-time station suggestions and guidance  
-- Security Module: Quick reporting and request tracking
-
----
-
-## Technologies & Tools
-
-- Figma – UI Design & Prototyping  
-- Google Forms – UX Survey Collection  
-- HCI Guidelines – Interface Design Standards  
-- Microsoft PowerPoint – Presentation Delivery
-
----
-
-## Skills Demonstrated
-
-- UI/UX Design & Wireframing (Figma, HCI Principles)  
-- Accessibility & Inclusive Design (WCAG 2.1)  
-- UX Research & Usability Testing  
-- Time Management & Team Collaboration  
-- Technical Documentation & Design Justification
-
----
-
-## How to Explore
-
-[1. Clone this repository:
-```bash
-git clone https://github.com/iRemaF/LinkedInProjects.git
-](https://github.com/iRemaF/LinkedInProjects/blob/main/Talabat%20Nourah%20App.md)
-
-2. Open the PDF file to view full documentation:
-[Uploading Human computer interaction .pptx…]()
-
----
+- View the repository: [Talabat Nourah App Repository](https://github.com/iRemaF/LinkedInProjects/blob/main/Talabat%20Nourah%20App.md)  
+- View the presentation: `Talabat.Nourah.HCI.pptx` (uploaded on GitHub)
 
 ## Contact
 
-For feedback or collaboration, feel free to connect via LinkedIn.
+For questions or collaboration inquiries, feel free to reach out via GitHub or LinkedIn.
