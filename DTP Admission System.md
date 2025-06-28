@@ -133,5 +133,3 @@ public class Admission {
 Feel free to reach out for questions or collaboration.
 
 ---
-
-هل تبين أرتب لك نسخة بالعربي بنفس الأسلوب أو نحولها PDF لو بترفعينه رسمي؟
