@@ -66,9 +66,9 @@ As the UI/UX Designer, I was responsible for:
 ## How to Explore
 
 1. Clone this repository:
-```bash
+[```bash
 git clone https://github.com/iRemaF/LinkedInProjects.git
-````
+````](https://github.com/iRemaF/LinkedInProjects/blob/main/Talabat%20Nourah%20App.md)
 
 2. Open the PDF file to view full documentation:
 [Human computer interaction .pdf](https://github.com/user-attachments/files/20959231/Human.computer.interaction.pdf)
