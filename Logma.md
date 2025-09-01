@@ -60,4 +60,4 @@ Developed as part of the **Apple Developer Academy – AI Foundation Program**, 
 
 ## Contact  
 - GitHub: [iRemaF](https://github.com/iRemaF)  
-- LinkedIn: [Reema F. Almukhlifi](https://linkedin.com/in/reema-almukhlifi-bbb2b1240)  
+- LinkedIn: [Reema F. Almukhlifi](https://www.linkedin.com/in/reema-f-almukhlifi-bbb2b1240/)  
