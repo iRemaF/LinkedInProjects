@@ -54,7 +54,7 @@ Developed as part of the **Apple Developer Academy – AI Foundation Program**, 
 
 ## How to View / Download  
 - **App Store**: [Download on the App Store](https://apps.apple.com/sa/app/logma/id6751205930)  
-- **Presentation**: [LOGMA Pitch Deck (PDF)](https://github.com/iRemaF/LinkedInProjects/blob/Documents/Logma%202.pdf)
+- **Presentation**: [LOGMA Pitch Deck (PDF)](https://github.com/iRemaF/LinkedInProjects/blob/Documents/LOGMA%202.pdf)
 
 ---
 
