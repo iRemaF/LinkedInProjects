@@ -2,7 +2,7 @@
 *by Reema F. Almukhlifi | Part of the Apple Developer Academy – AI Foundation Program*  
 
 > Logma was created to ensure that dining out is safe, simple, and enjoyable for people with food allergies.  
-> A bilingual iOS application (Arabic/English) that leverages AI to transform restaurant menus into a clear, personalized guide for safe dining.  
+> A bilingual iOS application (English) that leverages AI to transform restaurant menus into a clear, personalized guide for safe dining.  
 
 ---
 
