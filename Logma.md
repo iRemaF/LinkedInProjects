@@ -1,8 +1,8 @@
-  # LOGMA — Smart Allergy-Safe Dining  
-*by Reema F. Almukhlifi | Part of the Apple Developer Academy – AI Foundation Program*  
+# LOGMA — Smart Allergy-Safe Dining  
+*by Reema F. Almukhlifi | Part of the Apple Developer Academy – AI Foundation Program (5 weeks)*  
 
 > Logma was created to ensure that dining out is safe, simple, and enjoyable for people with food allergies.  
-> A bilingual iOS application (English) that leverages AI to transform restaurant menus into a clear, personalized guide for safe dining.  
+> An iOS application that leverages AI to transform restaurant menus into a clear, personalized guide for safe dining.  
 
 ---
 
@@ -13,7 +13,7 @@
 - Instantly analyze ingredients with AI (OpenAI API).  
 - Receive personalized results based on the user’s allergy profile.  
 - View straightforward safety indicators: Safe, Unsafe, or Ask the Chef.  
-- Support for both Arabic and English, including RTL layouts and dark mode.  
+- Currently supports English language only.  
 
 Developed as part of the **Apple Developer Academy – AI Foundation Program**, Logma integrates design thinking, AI engineering, and iOS development into a practical solution now available on the App Store.  
 
@@ -31,18 +31,22 @@ Developed as part of the **Apple Developer Academy – AI Foundation Program**, 
 
 ## Responsibilities & Contributions (Reema)  
 - Developed core application screens using SwiftUI (Allergy setup, Scanner flow, Results).  
-- Designed UI/UX in Figma, including bilingual layouts, color tokens, and icons.  
+- Designed UI/UX in Figma, focusing on clean and accessible layouts.  
 - Engineered AI prompts for accurate risk detection.  
-- Conducted quality assurance covering accessibility, RTL support, and dark mode.  
+- Conducted quality assurance covering accessibility and usability testing.  
 - Validated features with quick target-user interviews and feedback cycles.  
+- Co-designed and delivered the program pitch deck using **Keynote** and **Canva**.  
 
 ---
 
 ## Tools & Technologies  
 - **Figma** – UI/UX design and prototyping  
+- **Canva** – supplementary visuals and presentation assets  
+- **Keynote** – presentation design and delivery  
 - **Cursor** – AI-assisted coding and refactoring  
 - **Xcode** – iOS development using SwiftUI  
 - **OpenAI API** – natural language menu analysis  
+- **TestFlight** – app distribution and user testing  
 
 **Languages:** Swift  
 
@@ -50,9 +54,10 @@ Developed as part of the **Apple Developer Academy – AI Foundation Program**, 
 
 ## How to View / Download  
 - **App Store**: [Download on the App Store](https://apps.apple.com/sa/app/logma/id6751205930)  
+- **Presentation**: [LOGMA Pitch Deck (PDF)](./LOGMA%202.pdf)  
 
 ---
 
 ## Contact  
 - GitHub: [iRemaF](https://github.com/iRemaF)  
-- LinkedIn: [Reema F. Almukhlifi](https://www.linkedin.com/in/reema-f-almukhlifi-bbb2b1240/)  
+- LinkedIn: [Reema F. Almukhlifi](https://linkedin.com/in/reema-almukhlifi-bbb2b1240)  
