@@ -50,7 +50,6 @@ Developed as part of the **Apple Developer Academy – AI Foundation Program**, 
 
 ## How to View / Download  
 - **App Store**: [Download on the App Store](https://apps.apple.com/sa/app/logma/id6751205930)  
-- **Screenshots and Demo**: Available in the `/assets/logma-screens/` folder  
 
 ---
 
